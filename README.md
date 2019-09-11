@@ -38,7 +38,7 @@ sudo python3 setup.py install
 ```
 
 ## Usage and screenshots
-From the home you can configure and controll up to 4 cameras.
+From the home you can configure and control up to 4 cameras.
 ![Home](/Screenshots/home.png?raw=true "Home")
 
 Each camera can be configured clicking on the corresponding gear symbol. You must enter a URL (rtsp, http or other protocol supported by OpenCV) including credentials e.g. _username:myStrongPassword@12.34.56.78/video/live_.
