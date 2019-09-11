@@ -1,7 +1,7 @@
 ## PAF Plate and Face Recognition
 A complete GUI tool to recognize and detect plates and faces in video streaming and files.
 
-This software was tested on Linux Debian 9. If you want to use it on other OS, you may use a virtual machine.
+This software was tested on _Linux Debian 9_. If you want to use it on other OS, you may use a virtual machine.
 
 # Installation
 Please run this commands:
@@ -36,4 +36,19 @@ Finally, install python bindings:
 cd ../bindings/python
 sudo python3 setup.py install
 ```
+
+# Usage and screenshots
+From the home you can configure and controll up to 4 cameras.
+![Home](/Screenshots/home.png?raw=true "Home")
+
+Each camera can be configured clicking on the corresponding gear symbol. You must enter a URL (rtsp, http or other protocol supported by OpenCV) including credentials e.g. _username:myStrongPassword@12.34.56.78/video/live_.
+You may want to detect also unknown faces/plates (i.e. faces and plates that are not a target).
+You can also select a ROI (region of interest).
+![Configure camera](/Screenshots/cameraconfig.png?raw=true "Camera configuration")
+
+From the home, clicking on the rightmost button of each camera you can see all the events. At bottom left there is a button to delete all the events stored with that camera. 
+![Events](/Screenshots/events.png?raw=true "Camera events")
+
+You can process video files too. From menu, just select "Process files". The options are similar to the above, but you need to set a output destination.
+![File process](/Screenshots/fileprocess.png?raw=true "File process")
 
