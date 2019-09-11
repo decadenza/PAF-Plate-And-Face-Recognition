@@ -50,6 +50,7 @@ From the home, clicking on the rightmost button of each camera you can see all t
 ![Events](/Screenshots/events.png?raw=true "Camera events")
 
 You can process video files too. From menu, just select "Process files". The options are similar to the above, but you need to set a output destination.
+
 ![File process](/Screenshots/fileprocess.png?raw=true "File process")
 
 
