@@ -52,3 +52,12 @@ From the home, clicking on the rightmost button of each camera you can see all t
 You can process video files too. From menu, just select "Process files". The options are similar to the above, but you need to set a output destination.
 ![File process](/Screenshots/fileprocess.png?raw=true "File process")
 
+
+
+# Considerations
+1) When using live video the software is __not__ using a buffer. It takes the current frame from the camera. This means that you may lose a face or a plate, because the algorithm can not process 25 frames per seconds on a common machine.
+
+2) Video file processing, instead, processes __every__ frame found in the video file(s). It will use all the CPUs available in parallel to speed up processing.
+
+3) No software is free of bugs. Please report issues!
+
