@@ -49,7 +49,7 @@ You can also select a ROI (region of interest).
 From the home, clicking on the rightmost button of each camera you can see all the events. At bottom left there is a button to delete all the events stored with that camera. 
 ![Events](/Screenshots/events.png?raw=true "Camera events")
 
-You can process video files too. From menu, just select "Process files". The options are similar to the above, but you need to set a output destination.
+You can process video files too. From menu, just select "Process files". The options are similar to the ones above, but you need to set a output destination.
 
 ![File process](/Screenshots/fileprocess.png?raw=true "File process")
 
