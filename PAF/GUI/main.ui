@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FaceGMT</class>
+ <widget class="QMainWindow" name="FaceGMT">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>763</width>
+    <height>389</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>1</width>
+    <height>1</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">PAF - Plate and Face Recognition</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/media/media/icon.png</normaloff>:/media/media/icon.png</iconset>
+  </property>
+  <property name="locale">
+   <locale language="Italian" country="Italy"/>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>763</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionHome"/>
+    <addaction name="separator"/>
+    <addaction name="actionTargetManager"/>
+    <addaction name="actionAnalyze"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuAiuto">
+    <property name="locale">
+     <locale language="Italian" country="Italy"/>
+    </property>
+    <property name="title">
+     <string>?</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuAiuto"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="sizeGripEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <action name="actionGestione_flussi_video">
+   <property name="text">
+    <string>Gestione flussi video...</string>
+   </property>
+  </action>
+  <action name="actionTargetManager">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/media/media/checked.png</normaloff>:/media/media/checked.png</iconset>
+   </property>
+   <property name="text">
+    <string>Target manager</string>
+   </property>
+  </action>
+  <action name="actionEventi">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/media/media/sound-bars.png</normaloff>:/media/media/sound-bars.png</iconset>
+   </property>
+   <property name="text">
+    <string>Registro eventi...</string>
+   </property>
+  </action>
+  <action name="actionAiuto">
+   <property name="text">
+    <string>Aiuto</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/media/media/question.png</normaloff>:/media/media/question.png</iconset>
+   </property>
+   <property name="text">
+    <string>Aiuto</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/media/media/back-1.png</normaloff>:/media/media/back-1.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionAnalyze">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/media/media/list.png</normaloff>:/media/media/list.png</iconset>
+   </property>
+   <property name="text">
+    <string>Process files...</string>
+   </property>
+  </action>
+  <action name="actionHome">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/media/media/house.png</normaloff>:/media/media/house.png</iconset>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
