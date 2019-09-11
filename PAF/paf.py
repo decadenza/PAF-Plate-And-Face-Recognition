@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-PAF - Plate and Faces near recognition
+PAF - Plate and Faces Recognition
 Pasquale Lafiosca (c) 2019
 """
 
