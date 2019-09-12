@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>834</width>
+    <width>863</width>
     <height>595</height>
    </rect>
   </property>
@@ -112,7 +112,7 @@
     <rect>
      <x>140</x>
      <y>120</y>
-     <width>641</width>
+     <width>681</width>
      <height>61</height>
     </rect>
    </property>
@@ -120,7 +120,7 @@
   <widget class="QPushButton" name="buttonSave">
    <property name="geometry">
     <rect>
-     <x>600</x>
+     <x>640</x>
      <y>490</y>
      <width>181</width>
      <height>31</height>
@@ -139,7 +139,7 @@
     <rect>
      <x>50</x>
      <y>20</y>
-     <width>731</width>
+     <width>771</width>
      <height>21</height>
     </rect>
    </property>
@@ -157,7 +157,7 @@
   <widget class="QPushButton" name="buttonBack">
    <property name="geometry">
     <rect>
-     <x>400</x>
+     <x>40</x>
      <y>490</y>
      <width>181</width>
      <height>31</height>
@@ -182,7 +182,7 @@
     <rect>
      <x>140</x>
      <y>70</y>
-     <width>641</width>
+     <width>681</width>
      <height>31</height>
     </rect>
    </property>
@@ -281,10 +281,10 @@
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>560</x>
-     <y>270</y>
+     <x>600</x>
+     <y>260</y>
      <width>221</width>
-     <height>71</height>
+     <height>81</height>
     </rect>
    </property>
    <property name="font">
