@@ -6,13 +6,12 @@ This software was tested on _Linux Debian 9_. If you want to use it on other OS,
 ## Installation
 Please run this commands:
 ```
-pip3 install numpy
 sudo apt install cmake
-pip3 install dlib # In case of problems compile from source...
 sudo apt-get install python3-pyqt5 # In case of problems compile from source...
+pip3 install numpy
+pip3 install dlib # In case of problems compile from source...
+pip3 install opencv-python==3.4.7.28
 ```
-Please follow the instructions to [install OpenCV](https://docs.opencv.org/3.4.7/d2/de6/tutorial_py_setup_in_ubuntu.html).
-
 Then you'll need to install OpenALPR, so execute these commands:
 ```
 sudo apt-get install libopencv-dev libtesseract-dev git cmake build-essential libleptonica-dev
