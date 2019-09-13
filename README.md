@@ -10,7 +10,7 @@ sudo apt install cmake
 sudo apt-get install python3-pyqt5    # In case of problems compile from source...
 pip3 install numpy
 pip3 install dlib                     # In case of problems compile from source...
-pip3 install opencv-python==3.4.7.28
+pip3 install opencv-python
 ```
 Then you'll need to install OpenALPR, so execute these commands:
 ```
