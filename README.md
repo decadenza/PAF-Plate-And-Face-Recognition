@@ -6,10 +6,10 @@ This software was tested on _Linux Debian 9_. If you want to use it on other OS,
 ## Installation
 Please run this commands:
 ```
-pip install numpy
+pip3 install numpy
 sudo apt install cmake
-pip install dlib # In case of problems compile from source...
-pip install opencv-python
+pip3 install dlib # In case of problems compile from source...
+pip3 install opencv-python
 sudo apt-get install python3-pyqt5 # In case of problems compile from source...
 ```
 Then you'll need to install OpenALPR, so execute these commands:
