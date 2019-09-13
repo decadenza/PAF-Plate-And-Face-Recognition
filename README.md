@@ -11,7 +11,7 @@ sudo apt install cmake
 pip3 install dlib # In case of problems compile from source...
 sudo apt-get install python3-pyqt5 # In case of problems compile from source...
 ```
-Please follow the instructions to [install OpenCV3](https://docs.opencv.org/3.4.7/d7/d9f/tutorial_linux_install.html) or download [this script](https://github.com/milq/milq/blob/master/scripts/bash/install-opencv.sh) and execute it with `bash install-opencv.sh`.
+Please follow the instructions to [install OpenCV 3](https://docs.opencv.org/3.4.7/d2/de6/tutorial_py_setup_in_ubuntu.html).
 
 Then you'll need to install OpenALPR, so execute these commands:
 ```
