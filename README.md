@@ -31,7 +31,11 @@ To test the Alpr library you may try this:
 ```
 alpr TEST_IMAGE.jpg
 ```
-Finally, install python bindings:
+You may be able to install openalpr directly doing:
+```
+sudo apt-get install openalpr
+```
+But, in the end, you will always need to install python bindings:
 ```
 cd ../bindings/python
 sudo python3 setup.py install
