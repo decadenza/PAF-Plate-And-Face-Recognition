@@ -4,7 +4,7 @@ A complete GUI tool to recognize and detect plates and faces in video streaming 
 ## Installation - The Lazy Way
 This software was tested on _Linux Debian 9_. If you want to use it on other OS, you may use a virtual machine.
 1) Install [Oracle VirtualBox](https://www.oracle.com/it/virtualization/virtualbox/).
-2) Download and import the [virtual machine I created for you (size 4 GB)](https://drive.google.com/file/d/1F_ApbsfqFIAiWpI4XYi7-XgLUCJRxCB0/view?usp=sharing).
+2) Download and import the [Virtual Machine I created for you (size 4 GB)](https://drive.google.com/file/d/1F_ApbsfqFIAiWpI4XYi7-XgLUCJRxCB0/view?usp=sharing).
 3) Start the system and launch **PAF** from applications menu.
 
 ## Installation - The Hard Way
