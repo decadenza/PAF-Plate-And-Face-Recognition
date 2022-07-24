@@ -10,15 +10,15 @@ A complete GUI tool to recognize and detect plates and faces in video streaming 
 Please run this commands:
 ```
 sudo apt install cmake
-sudo apt-get install python3-pyqt5    # In case of problems compile from source...
+sudo apt install python3-pyqt5    # In case of problems compile from source...
 pip3 install numpy
 pip3 install dlib                     # In case of problems compile from source...
 pip3 install opencv-python
 ```
 Then you'll need to install OpenALPR, so execute these commands:
 ```
-sudo apt-get install libopencv-dev libtesseract-dev git cmake build-essential libleptonica-dev
-sudo apt-get install liblog4cplus-dev libcurl3-dev
+sudo apt install libopencv-dev libtesseract-dev git cmake build-essential libleptonica-dev
+sudo apt install liblog4cplus-dev libcurl3-dev
 ```
 Clone the latest code from GitHub
 ```
