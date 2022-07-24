@@ -40,6 +40,11 @@ cd ../bindings/python
 sudo python3 setup.py install
 ```
 
+Download this repository and execute:
+```
+python3 PAF/paf.py
+```
+
 ## Usage and screenshots
 From the home you can configure and control up to 4 cameras.
 ![Home](/Screenshots/home.png?raw=true "Home")
